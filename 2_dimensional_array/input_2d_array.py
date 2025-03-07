@@ -20,5 +20,8 @@ rows = int(input())
 new_2d_list = [[int(char) for char in input().split()] for row_num in range(rows)]
 print(new_2d_list)
 
-
-
+# printing 2 d list
+for row in new_2d_list:
+    for col in row:
+        print(col, end=" ")
+    print()
